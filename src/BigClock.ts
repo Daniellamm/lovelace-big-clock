@@ -1,6 +1,6 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
 import {css, CSSResult, html, LitElement, PropertyValues, TemplateResult} from 'lit';
-import {customElement, property, state} from 'lit/decorators';
+import {customElement, property, state} from 'lit/decorators.js';
 import {DateTime} from 'luxon';
 import {HomeAssistant} from 'custom-card-helpers';
 

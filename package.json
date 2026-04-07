@@ -4,6 +4,7 @@
   "description": "A large digital clock custom card for Home Assistant Lovelace",
   "author": "",
   "license": "MIT",
+  "type": "module",
   "main": "dist/BigClock.js",
   "dependencies": {
     "custom-card-helpers": "^1.9.0",
@@ -11,13 +12,14 @@
     "luxon": "^3.3.0"
   },
   "devDependencies": {
+    "@rollup/plugin-commonjs": "^25.0.0",
     "@rollup/plugin-json": "^6.0.0",
     "@rollup/plugin-node-resolve": "^15.0.0",
-    "@rollup/plugin-commonjs": "^25.0.0",
     "@rollup/plugin-terser": "^0.4.0",
+    "@rollup/plugin-typescript": "^11.0.0",
     "@types/node": "^20.0.0",
     "rollup": "^3.0.0",
-    "rollup-plugin-typescript2": "^0.36.0",
+    "tslib": "^2.6.0",
     "typescript": "^5.0.0"
   },
   "scripts": {

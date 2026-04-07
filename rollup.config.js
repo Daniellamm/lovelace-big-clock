@@ -1,4 +1,4 @@
-import typescript from 'rollup-plugin-typescript2';
+import typescript from '@rollup/plugin-typescript';
 import commonjs from '@rollup/plugin-commonjs';
 import nodeResolve from '@rollup/plugin-node-resolve';
 import terser from '@rollup/plugin-terser';
@@ -8,7 +8,7 @@ export default [
   {
     input: 'src/BigClock.ts',
     output: {
-      dir: 'dist',
+      file: 'dist/BigClock.js',
       format: 'es',
     },
     plugins: [
