@@ -48,7 +48,7 @@ export class BigClock extends LitElement {
     public connectedCallback(): void {
         super.connectedCallback();
         this._updateDateTime();
-        this._intervalId = window.setInterval(this._updateDateTime.bind(this), 60000);
+        this._intervalId = window.setInterval(this._updateDateTime.bind(this), 1000);
     }
 
     public disconnectedCallback(): void {
